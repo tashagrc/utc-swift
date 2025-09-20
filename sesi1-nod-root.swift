@@ -6,17 +6,15 @@ func getNod(n: Int) -> Int {
     
     while(i * i < n) {
         // start loop
-        if n % i == 0 {
+        if i * i == n {
+            count += 1
+        } else if n % i == 0 {
             count += 2 
         }
         // end loop
         i += 1
     }
-    if n % 2 == 0 {
-        return count - 1
-    } else {
-        return count
-    }
+    return count
 }
 
 func main() {
