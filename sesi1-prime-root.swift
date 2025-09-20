@@ -4,8 +4,11 @@
 // cuma bakal jalanin sampe root(n) aja
 
 func isPrime(n: Int) -> Bool {
-    let i: Int = 2
-    while(i * i < n) {
+    var i: Int = 2
+    if n < 2 {
+        return false
+    }
+    while(i * i <= n) {
         // loop body
         if n % i == 0 {
             return false
