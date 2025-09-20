@@ -8,12 +8,12 @@ Buat mencegah TLE, dilakukan saat memikirkan algo.
 1 detik -> 100 juta proses
 
 ### Latihan soal
-AtCoder abc144_c: Walk on Multiplication Table
-AtCoder abc170_d: Not Divisible
-CodeForces 230B: T-primes
-CodeForces 664A: Complicated GCD
-CodeForces 757B: Bash's Big Day 
-CodeForces 1458A: Row GCD
-UVA 10407: Simple division
-UVA 583: Prime Factors
+- AtCoder abc144_c: Walk on Multiplication Table
+- AtCoder abc170_d: Not Divisible
+- CodeForces 230B: T-primes
+- CodeForces 664A: Complicated GCD
+- CodeForces 757B: Bash's Big Day 
+- CodeForces 1458A: Row GCD
+- UVA 10407: Simple division
+- UVA 583: Prime Factors
 
