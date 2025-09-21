@@ -5,14 +5,14 @@
 // dan seterusnya
 
 let max = 1000
-var isPrime = Array(repeating: true, count: max)
+var isPrime = Array(repeating: true, count: max+1)
 
 func main() {
     let n: Int = Int(readLine() ?? "-1")!
     isPrime[0] = false
     isPrime[1] = false
-    for i in 2..<n { // ini iterasi setiap angka sampe n (list aslinya)
-        for j in (i+1)...n { // ini iterasi array isPrime sampe angka yang dicek tsb buat nyari kelipatannya
+    for i in 2...n { // ini iterasi setiap angka sampe n (list aslinya)
+        for j in (i+1)..<(n+1) { // ini iterasi array isPrime sampe angka yang dicek tsb buat nyari kelipatannya
             if j % i == 0 {
                 isPrime[j] = false
             }
