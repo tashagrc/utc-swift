@@ -11,7 +11,7 @@ FPB(x, y) -> bilangan terbesar yang habis membagi x dan y
 KPK(x, y) -> bilangan terkecil yang habis dibagi x dan y
 
 ### Latihan soal
-- CF 664A — Complicated GCD
+- CF 664A — Complicated GCD (V)
 - AtCoder ABC144 C — Walk on Multiplication Table
 - UVA 10407 — Simple Division
 - UVA 583 — Prime Factors
